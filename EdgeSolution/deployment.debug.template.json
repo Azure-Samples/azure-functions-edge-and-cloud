@@ -9,7 +9,13 @@
           "settings": {
             "minDockerVersion": "v1.25",
             "loggingOptions": "",
-            "registryCredentials": {}
+            "registryCredentials": {
+              "xinshi": {
+                "username": "$CONTAINER_REGISTRY_USERNAME_xinshi",
+                "password": "$CONTAINER_REGISTRY_PASSWORD_xinshi",
+                "address": "xinshi.azurecr.io"
+              }
+            }
           }
         },
         "systemModules": {
